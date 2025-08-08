@@ -17,7 +17,7 @@ This is my solution to the [Blog Preview Card challenge](https://www.frontendmen
 ## 🔗 Links
 
 - **Solution URL:** [View on Frontend Mentor](https://www.frontendmentor.io/solutions/your-solution-link)
-- **Live Site URL:** [View Live Demo](https://your-live-site-link.com)
+- **Live Site URL:** [View Live Demo](https://juanfeoru.github.io/blog-preview-card/)
 
 ---
 
