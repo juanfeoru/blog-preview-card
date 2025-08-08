@@ -16,7 +16,7 @@ This is my solution to the [Blog Preview Card challenge](https://www.frontendmen
 
 ## 🔗 Links
 
-- **Solution URL:** [View on Frontend Mentor](https://www.frontendmentor.io/solutions/your-solution-link)
+- **Solution URL:** [View on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-flexbox-and-custom-fonts-FKlTmmlR-J)
 - **Live Site URL:** [View Live Demo](https://juanfeoru.github.io/blog-preview-card/)
 
 ---
