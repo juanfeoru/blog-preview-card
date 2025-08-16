@@ -15,19 +15,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <article class="card">
       <img
         src="./assets/images/illustration-article.svg"
         alt="Decorative illustration of the article"
-        class="illustration"
+        class="card__illustration"
+        aria-hidden="true"
+        height="201"
+        width="336"
       />
 
-      <div class="card-text">
-        <h4 class="card-tag">Learning</h4>
-        <p class="card-date">Published 21 Dec 2023</p>
+      <section class="card-text">
+        <h1 class="card-text__tag">Learning</h1>
+        <p class="card-text__date">Published 21 Dec 2023</p>
 
-        <h2 class="card-title">HTML & CSS foundations</h2>
-        <p class="card-description">
+        <h2 class="card-text__title">HTML & CSS foundations</h2>
+        <p class="card-text__description">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
@@ -36,11 +39,14 @@
           <img
             src="./assets/images/image-avatar.webp"
             alt=""
-            class="author-avatar"
+            class="card-author__avatar"
+            width="64"
+            height="65"
+            aria-hidden="true"
           />
-          <h4 class="author-name">Greg Hooper</h4>
+          <h2 class="card-author__name">Greg Hooper</h2>
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   </body>
 </html>
