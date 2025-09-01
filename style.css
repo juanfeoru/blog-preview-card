@@ -55,11 +55,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+  overflow-y: hidden;
 }
 
 .card {
   background-color: var(--white);
-  max-width: 24rem;
+  max-width: 20rem;
   padding: 1.5rem;
   border-radius: 1.25rem;
   box-shadow: 8px 8px 0px 0px;
@@ -87,6 +89,7 @@ body {
 }
 
 .card-text__date {
+  display: block;
   color: var(--gray-950);
   font-size: 0.875rem;
   font-weight: 500;
@@ -96,7 +99,7 @@ body {
 .card-text__title {
   color: var(--gray-950);
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0.75rem;
   transition: color 0.3s ease;
 }
@@ -108,6 +111,7 @@ body {
 
 .card-text__description {
   color: var(--gray-500);
+  font-size: 0.87rem;
   line-height: 150%;
 }
 
@@ -130,12 +134,26 @@ body {
   padding-left: 0.75rem;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 620px) {
   .card {
-    margin: 1rem;
+    max-width: 23rem;
+    padding: 2rem;
   }
 
   .card-text__title {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+  }
+
+  .card-text__description {
+    font-size: 0.9rem;
+  }
+
+  .card-author__avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .card-author__name {
+    font-size: 1rem;
   }
 }
