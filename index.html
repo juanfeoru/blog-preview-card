@@ -13,39 +13,56 @@
 
     <title>Frontend Mentor | Blog preview card</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <article class="card">
+
+  <body
+    class="bg-[var(--yellow)] flex justify-center items-center min-h-screen m-4"
+  >
+    <article
+      class="bg-[var(--white)] max-w-80 p-6 rounded-2xl shadow-[8px_8px_0px_0px] border"
+    >
       <img
         src="./assets/images/illustration-article.svg"
         alt="Decorative illustration of the article"
-        class="card__illustration"
+        class="rounded-lg"
         aria-hidden="true"
         height="201"
         width="336"
       />
 
-      <section class="card-text">
-        <span class="card-text__tag">Learning</span>
-        <time class="card-text__date" datetime="2023-12-21"
+      <section class="mt-6">
+        <span
+          class="bg-[var(--yellow)] inline-block py-1 px-3 rounded-md text-[var(--gray-950)] font-extrabold mb-3 text-sm"
+          >Learning</span
+        >
+        <time
+          class="block text-[var(--gray-950)] text-sm font-medium mb-3"
+          datetime="2023-12-21"
           >Published 21 Dec 2023</time
         >
 
-        <h1 class="card-text__title">HTML & CSS foundations</h1>
-        <p class="card-text__description">
+        <h1
+          class="text-[var(--gray-950)] font-extrabold text-xl mb-3 ease-out duration-300 cursor-pointer hover:text-[var(--yellow)]"
+        >
+          HTML & CSS foundations
+        </h1>
+        <p class="text-[var(--gray-500)] text-sm">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
 
-        <div class="card-author">
+        <div class="flex items-center gap-3 mt-6">
           <img
             src="./assets/images/image-avatar.webp"
             alt="Greg Hooper"
-            class="card-author__avatar"
+            class="w-8 h-8"
             width="64"
             height="65"
           />
-          <span class="card-author__name">Greg Hooper</span>
+          <span class="text-[var(--gray-950)] text-sm font-extrabold"
+            >Greg Hooper</span
+          >
         </div>
       </section>
     </article>
